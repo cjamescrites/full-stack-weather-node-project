@@ -1,8 +1,8 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import router from "./routes/weather.js"
+import router from "./routes/weather.js";
 import cors from 'cors';
-import { sequelize } from "./db/index.js"
+import { sequelize } from "./db/index.js";
 
 const app = express();
 
